@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
+import 'package:groceryappstask/screens/Eigth_page.dart';
+import 'package:groceryappstask/screens/Fifth_page.dart';
+import 'package:groceryappstask/screens/Seventh_page.dart';
 import 'presentation/custom_icons_iconsdart_icons.dart';
 
 //import 'package:provider/provider.dart';
@@ -12,11 +15,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Grocery App',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(),
+      home: seventhpage(),//MyHomePage(),
     );
   }
 }
